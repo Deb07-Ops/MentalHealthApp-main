@@ -1,0 +1,57 @@
+/* Meditations.css */
+
+.meditations-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.meditations-container .heading {
+    margin-bottom: 5%;
+}
+
+
+.meditation-list {
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 500px; 
+}
+
+.meditation-list table {
+    margin-top: 2.5%;
+    width: 100%;
+    border-collapse: collapse;
+    max-height: 400px; 
+    display: block; 
+    overflow-y: auto; 
+  }
+
+  .meditation-list th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.meditation-list th {
+    background-color: bisque;
+    border-bottom: solid 1px black;
+}
+
+.meditation-list tbody tr {
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.play {
+    background-color: #007bff00;
+    border: none;
+}
+
+.play img {
+    width: 20px; /* Adjust this value to change the width */
+    height: 20px; /* Adjust this value to change the height */
+}
+
+
+

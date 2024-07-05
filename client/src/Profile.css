@@ -1,0 +1,76 @@
+.profile-page-container .profile-page {
+    width: 94%;
+    overflow-y: auto;
+    max-width: 94%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 30px 0px 0px 30px;
+    z-index: -2;
+  }
+  
+  .profile-page-container .profile-page {
+    width: 100%;
+  }
+  
+  .profile-picture-container img
+  {
+    width: 20%;
+  }
+  
+  .blurred {
+    filter: blur(5px);
+  }
+  
+  .picture-options {
+    position: fixed;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .picture-options img {
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profile-info-label {
+  flex: 0 0 auto;
+  width: 100px; /* Adjust width as needed */
+  text-align: left;
+}
+
+.profile-info-content {
+  flex: 1 1 auto;
+  text-align: right;
+}
+.profile-delete-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

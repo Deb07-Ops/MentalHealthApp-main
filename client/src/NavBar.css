@@ -1,0 +1,79 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 155, 32);
+  color: white;
+  width: 6%;
+  height: 100%;
+  padding-top: 15px;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: 0px;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 55%;
+  margin-top: 25px;
+}
+
+.icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Vertically center align items */
+  margin-top: auto; /* Push to the bottom */
+}
+
+.sidebar-icon img {
+  width: 35px; /* Adjusted width for smaller icons */
+  height: 35px; /* Adjusted height for smaller icons */
+  margin-bottom: 0; /* Adjusted margin */
+}
+
+.sidebar-icon:hover {
+  color: yellow;
+}
+
+.sidebar-icon.discord {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.logout-icon {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: red;
+}
+
+.sidebar-icon:hover {
+  color: rgb(254, 254, 255);
+  cursor: pointer;
+}
+
+
+.logout-icon:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.hover-box {
+  display: inline-block;
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow effect */
+  transition: box-shadow 0.3s ease; /* Smooth transition */
+  margin-bottom: 40px;
+}
+
+/* Apply the hover effect when hovering over the button */
+.sidebar-icon:hover .hover-box {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Change the box shadow on hover */
+}

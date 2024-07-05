@@ -1,0 +1,66 @@
+.library-page-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling on the container */
+  }
+  
+  .library-page-container .library-page {
+    width: 94%;
+    max-width: 94%;
+    position: relative;
+    background-color: bisque;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: auto; /* Push the library page to the right */
+    overflow-y: auto; /* Enable vertical scrolling within the library page */
+    padding-bottom: 20px; /* Add some bottom padding for better scrolling experience */
+  }
+  
+  .library-page-container .nvbr {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Quicksand", sans-serif;
+    align-items: center;
+    margin: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 7.5%;
+    color: rgb(51, 51, 51);
+    border-bottom: 2px solid black;
+  }
+
+  .library-page-container .nvbr h1
+  {
+    font-weight: bold;
+  }
+  
+  .library-page-container .heading {
+    width: 40%;
+  }
+  
+  .library-page-container .search-bar {
+    margin-left: auto;
+    width: 30%;
+    height: 40px;
+  }
+  
+  .library-page-container .search-bar input {
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+  }
+  
+  .library-page-container .therapist-page {
+    width: 100%;
+  }
+  
+  .library-page-container .books-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 75px;
+    row-gap: 50px;
+    margin: 7.5%;
+    justify-content: center;
+  }
